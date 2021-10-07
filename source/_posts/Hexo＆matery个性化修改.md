@@ -44,5 +44,5 @@ banner:
 </script>
 ~~~
 修改banner区域使用在随机图片api时，由于加载速度不同显示出红色底色
-打开文件`materialize.min.css` 修改`.red选择器`中的背景颜色为其他颜色或者替换为图片，我这里知己替换为图片了。这也就意味着前面对banner的修改失效了，可以选择注释掉
+打开文件`materialize.min.css` 修改`.red选择器`中的背景颜色为其他颜色或者替换为图片，我这里直接替换为图片了。
 ![](https://p.pstatp.com/origin/pgc-image/8a3afc11a3824200a0b180ac8a8eb336)

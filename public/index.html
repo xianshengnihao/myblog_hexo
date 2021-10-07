@@ -35,6 +35,16 @@
 
 
 
+   <style>
+    body{
+       background-image: url(http://dl.ppt123.net/pptbj/51/20181115/l4gyylcnf10.jpg);
+       background-repeat:no-repeat;
+       background-size:cover;
+       background-attachment:fixed;
+    }
+</style>
+
+
 
 <body>
     <header class="navbar-fixed">
@@ -388,9 +398,7 @@
 
 
 <script>
-    // 每天切换 banner 图.  Switch banner image every day.
-    var bannerUrl = "/my-blog/medias/banner/" + new Date().getDay() + '.jpg';
-    $('.bg-cover').css('background-image', 'url(' + bannerUrl + ')');
+    // $('.bg-cover').css('background-image', 'url(https://source.unsplash.com/random/1920*1080)');
 </script>
 
 
@@ -558,6 +566,50 @@
     <!-- 所有文章卡片 -->
     <article id="articles" class="container articles">
         <div class="row article-row">
+            
+            <div class="article col s12 m6 l4" data-aos="zoom-in">
+                <div class="card">
+                    <a href="/my-blog/2021/10/07/hexo-matery-ge-xing-hua-xiu-gai/">
+                        <div class="card-image">
+                            
+                            
+                            <img src="/my-blog/medias/featureimages/14.jpg" class="responsive-img" alt="Hexo＆matery个性化修改">
+                            
+                            <span class="card-title">Hexo＆matery个性化修改</span>
+                        </div>
+                    </a>
+
+                    <div class="card-content article-content">
+                        <div class="summary block-with-text">
+                            
+                                修改主题配色配色包括导航栏，底部栏，a标签等。原主题配色是绿色，但是又不想用黑色调，又不知道什么色调好看，随便选俩颜色渐变吧。
+1.修改themes\Matery\source\css\matery.css样式快捷键在文件中搜索.bg-co
+                            
+                        </div>
+                        <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2021-10-07
+                            </span>
+                            <span class="publish-author">
+                                
+                                <i class="fas fa-bookmark fa-fw icon-category"></i>
+                                
+                                <a href="/my-blog/categories/Hexo/" class="post-category">
+                                    Hexo
+                                </a>
+                                
+                                <a href="/my-blog/categories/Hexo/matery/" class="post-category">
+                                    matery
+                                </a>
+                                
+                                
+                            </span>
+                        </div>
+                    </div>
+
+                    
+                </div>
+            </div>
             
             <div class="article col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
@@ -853,6 +905,7 @@ TCP建立连接的三次握手（req为一个序列号）
                         <div class="summary block-with-text">
                             
                                 免费图床，可用来图片的CDN加速https://www.oleou.com/zt/tuc/ 
+随机图片apihttps://source.unsplash.com/random/1920*1080 url最后替换为需要的分辨率即可
 
                             
                         </div>
@@ -876,12 +929,8 @@ TCP建立连接的三次握手（req为一个序列号）
                     
                     <div class="card-action article-tags">
                         
-                        <a href="/my-blog/tags/Hexo/">
-                            <span class="chip bg-color">Hexo</span>
-                        </a>
-                        
-                        <a href="/my-blog/tags/%E5%8A%A0%E5%AF%86%E6%96%87%E7%AB%A0/">
-                            <span class="chip bg-color">加密文章</span>
+                        <a href="/my-blog/tags/Hexo%E8%B5%84%E6%BA%90/">
+                            <span class="chip bg-color">Hexo资源</span>
                         </a>
                         
                     </div>
@@ -1001,7 +1050,7 @@ TCP建立连接的三次握手（req为一个序列号）
             <br>
             
             &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                class="white-color">613</span>&nbsp;字
+                class="white-color">1.1k</span>&nbsp;字
             
             
             
