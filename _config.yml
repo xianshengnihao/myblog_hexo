@@ -4,8 +4,8 @@
 
 # Site
 title: 先生你好
-subtitle: 'Hello World'
-description: 'XXXX'
+subtitle: '先生你好の博客'
+description: '把你的格子衫借我穿穿'
 keywords:
 author: 先生你好
 language: zh-CN
@@ -115,3 +115,13 @@ deploy:
   type: git
   repo: https://gitee.com/haoweige/my-blog.git
   branch: master
+# Extensions
+## Plugins: http://hexo.io/plugins/
+#RSS订阅
+plugin:
+  - hexo-generator-feed
+#Feed Atom
+feed:
+  type: atom
+  path: atom.xml
+  limit: 20
