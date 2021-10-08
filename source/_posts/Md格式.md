@@ -2,7 +2,7 @@
 title: Md格式
 date: 2021-10-06 21:59:57
 tags: MD
-categories: MD
+categories: Hexo
 --- 
 
 # 一级标题

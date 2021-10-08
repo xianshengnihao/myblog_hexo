@@ -22,6 +22,9 @@ menu:
   Friends:
     url: /friends
     icon: fas fa-address-book
+  Navigate:
+    url: /navigate
+    icon: fas fa-location-arrow
 #  404:
 #    url: /404
 #      icon: fas fa-heartbeat
@@ -384,7 +387,7 @@ changyan:
 # 配置是否在 header 中显示 fork me on github 的图标，默认为true，你可以修改为你的仓库地址.
 githubLink:
   enable: true
-  url: https://github.com/blinkfox/hexo-theme-matery
+  url: https://github.com/xianshengnihao/myblog_hexo.git
   title: Fork Me
 
 # The password verification feature of read post. To use this feature,
@@ -414,8 +417,8 @@ googleAnalytics:
 # Add baidu analytics configuration
 # 添加 baidu Analytics 配置
 baiduAnalytics:
-  enable: false
-  id:
+  enable: true
+  id: e20a8eacba52112d013dbdc931b9cbd9
 
 # 百度搜索资源平台提交链接
 baiduPush: true

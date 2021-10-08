@@ -10,6 +10,7 @@ categories: Hexo
 [https://www.oleou.com/zt/tuc/](https://www.oleou.com/zt/tuc/) 
 ##### 随机图片api
 [https://source.unsplash.com/random/1920*1080](https://source.unsplash.com/random/1920*1080) url最后替换为需要的分辨率即可
-
+##### logo在线制作
+[http://www.uugai.com/](http://www.uugai.com/)
 
 
