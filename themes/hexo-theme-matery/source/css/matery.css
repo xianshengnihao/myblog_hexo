@@ -2138,3 +2138,40 @@ footer .copy-right {
     padding: 0;
     margin: 0;
 }
+
+/*自定义样式*/
+/*直达评论按钮样式*/
+.comment-scroll {
+    position: fixed;
+    right: 15px;
+    bottom: 135px;
+    padding-top: 15px;
+    margin-bottom: 0;
+    z-index: 998;
+}
+
+.comment-scroll .btn-floating {
+    background: linear-gradient(to bottom right, #FF9999 0%, #ff6666 100%);
+    width: 48px;
+    height: 48px;
+}
+
+.comment-scroll .btn-floating i {
+    line-height: 48px;
+    font-size: 1.8rem;
+}
+
+/* 滚动条 */
+::-webkit-scrollbar-thumb {
+    background-color: #448AFF;
+    background-image: -webkit-linear-gradient(45deg,rgba(255,255,255,.4) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.4) 50%,rgba(255,255,255,.4) 75%,transparent 75%,transparent);
+    border-radius: 3em;
+}
+::-webkit-scrollbar-track {
+    background-color: #ffabcd;
+    border-radius: 3em;
+}
+::-webkit-scrollbar {
+    width: 4px;
+    height: 10px;
+}

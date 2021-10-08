@@ -22,7 +22,9 @@ menu:
   Friends:
     url: /friends
     icon: fas fa-address-book
-
+#  404:
+#    url: /404
+#      icon: fas fa-heartbeat
   # 二级菜单写法如下
 #Medias:
 #  icon: fas fa-list
@@ -606,9 +608,9 @@ jsDelivr:
 # 网站背景图
 background:
   enable: true
-  url: "http://dl.ppt123.net/pptbj/51/20181115/l4gyylcnf10.jpg"
+#  url: "http://dl.ppt123.net/pptbj/51/20181115/l4gyylcnf10.jpg"
   #随机图片api
-# url: ""https://source.unsplash.com/random/1920*1080
+  url: "https://source.unsplash.com/random/1000*200"
 
 # 说说 https://artitalk.js.org/
 artitalk:
