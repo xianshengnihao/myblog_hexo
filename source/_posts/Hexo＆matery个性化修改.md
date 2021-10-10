@@ -1,15 +1,16 @@
 ---
 title: Hexo＆matery个性化修改
-date: 2021-10-07 22:11:19
 tags: matery个性化修改
-categories: 
-    - Hexo
-    - matery
-img: https://source.unsplash.com/random/
-top: true
-cover: true
+categories:
+  - Hexo
+  - matery
+img: 'https://source.unsplash.com/random/'
+top: false
+cover: false
 summary: 记录matery的一些个性化修改
-keywords: 
+abbrlink: '21558651'
+date: 2021-10-07 22:11:19
+keywords:
 ---
 #### 修改主题配色
 配色包括导航栏，底部栏，a标签等。原主题配色是绿色，但是又不想用黑色调，又不知道什么色调好看，随便选俩颜色渐变吧。

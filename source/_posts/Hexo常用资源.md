@@ -1,9 +1,10 @@
 ---
 title: Hexo常用资源
-date: 2021-10-06 20:59:48
-tags: 
-    - Hexo资源
+tags:
+  - Hexo资源
 categories: Hexo
+abbrlink: 1a1dd6c0
+date: 2021-10-06 20:59:48
 ---
 
 ##### 免费图床，可用来图片的CDN加速

@@ -1,8 +1,9 @@
 ---
 title: 添加Rss订阅
-date: 2021-10-07 21:02:25
 tags: Rss
 categories: Hexo
+abbrlink: ebe2c743
+date: 2021-10-07 21:02:25
 ---
 ### 安装feed插件
 1.输入指令: `npm install hexo-generator-feed` 

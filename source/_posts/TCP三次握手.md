@@ -1,8 +1,9 @@
 ---
 title: TCP三次握手
-date: 2021-10-06 21:12:25
 tags: 面试题
 categories: 计算机网络
+abbrlink: 3d85440b
+date: 2021-10-06 21:12:25
 ---
 # TCP三次握手
 
