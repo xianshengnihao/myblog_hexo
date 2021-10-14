@@ -13,8 +13,8 @@ timezone: ''
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-#url: https://haoweige.gitee.io/blog
-url: https://xianshengnihao.github.io/
+url: https://haoweige.gitee.io/blog
+#url: https://xianshengnihao.github.io/
 permalink: posts/:abbrlink.htm
 abbrlink:
   alg: crc32   #算法： crc16(default) and crc32
@@ -120,8 +120,8 @@ search:
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
-#  repo: https://gitee.com/haoweige/blog.git
-  repo: https://github.com/xianshengnihao/blog.git
+  repo: https://gitee.com/haoweige/blog.git
+#  repo: https://github.com/xianshengnihao/blog.git
   branch: master
 # Extensions
 ## Plugins: http://hexo.io/plugins/
