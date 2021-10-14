@@ -35,11 +35,15 @@
 <script>
     // 每天切换 banner 图.  Switch banner image every day.
     <!--var bannerUrl = "<%- theme.jsDelivr.url %><%- url_for('/medias/banner/') %>" + new Date().getDay() + '.jpg';-->
-    var bannerUrl = "https://source.unsplash.com/random/1920*1080";
-    $('.bg-cover').css('background-image', 'url(' + bannerUrl + ')');
+   // var bannerUrl = "https://source.unsplash.com/random/1920*1080";
+   // $('.bg-cover').css('background-image', 'url(' + bannerUrl + ')');
 </script>
 <% } else { %>
 <script>
-    $('.bg-cover').css('background-image', 'url(https://source.unsplash.com/random/1920*1080)');
+    <!--banner 图-->
+    var imagelength = "<%- theme.banner.imglength %>";
+    $('.bg-cover').css('background-image', 'url(<%- theme.jsDelivr.url %><%- url_for('/medias/banner/1/'+ Math.floor(Math.random()*( theme.banner.imglength + 1)) +'.jpg') %>)');
+    //var bannerUrl ="<%- theme.banner.url %>";
+    // $('.bg-cover').css('background-image', 'url(' + bannerUrl +')');
 </script>
 <% } %>

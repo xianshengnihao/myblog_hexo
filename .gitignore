@@ -7,5 +7,5 @@
 # Editor-based HTTP Client requests
 /httpRequests/
 .idea
-/public/*
-/.deploy_git/*
+public
+.deploy_git

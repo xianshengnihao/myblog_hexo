@@ -13,7 +13,8 @@ timezone: ''
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://haoweige.gitee.io/my-blog/
+#url: https://haoweige.gitee.io/blog
+url: https://xianshengnihao.github.io/
 permalink: posts/:abbrlink.htm
 abbrlink:
   alg: crc32   #算法： crc16(default) and crc32
@@ -47,6 +48,7 @@ render_drafts: false
 post_asset_folder: true
 relative_link: false
 future: true
+##关闭自带高亮，因为有点丑
 highlight:
   enable: false
   line_number: true
@@ -54,17 +56,18 @@ highlight:
   tab_replace: ''
   wrap: true
   hljs: false
+##代码高亮插件 好用
 prismjs:
-  enable: false
+  enable: true
   preprocess: true
   line_number: true
   tab_replace: ''
-##代码高亮插件
-prism_plugin:
-  mode: 'preprocess'    # realtime/preprocess
-  theme: 'tomorrow'
-  line_number: false    # default false
-  custom_css:
+##代码高亮插件 有BUG 特殊字符被转义
+#prism_plugin:
+#  mode: 'preprocess'    # realtime/preprocess
+#  theme: 'tomorrow'
+#  line_number: false    # default false
+#  custom_css:
 permalink_pinyin:
   enable: false
   separator: '-' # default: '-'
@@ -117,7 +120,8 @@ search:
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
-  repo: https://gitee.com/haoweige/my-blog.git
+#  repo: https://gitee.com/haoweige/blog.git
+  repo: https://github.com/xianshengnihao/blog.git
   branch: master
 # Extensions
 ## Plugins: http://hexo.io/plugins/

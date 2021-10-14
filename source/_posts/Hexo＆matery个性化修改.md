@@ -4,7 +4,7 @@ tags: matery个性化修改
 categories:
   - Hexo
   - matery
-img: 'https://source.unsplash.com/random/'
+# img: 'https://source.unsplash.com/random/'
 top: false
 cover: false
 summary: 记录matery的一些个性化修改
@@ -168,4 +168,10 @@ tags:
   - Typora
   - Markdown
 ```
+#### 文章内连接站内文章
+`{% post_link 文章文件名（不要后缀） 文章标题（可选） %}`
+#### 删除首页轮播图
+1. 打开文件`themes/hexo-theme-matery/layout/_partial/index-cover.ejs` 搜索`carousel-item amber white-text carousel-post bg-cover`，然后将dev内的 style删掉即可
+2. 打开文件`themes/hexo-theme-matery/source/libs/materialize/materialize.min.css`，搜索.amber，删除掉.amber选择器中的背景色
+#### 
 ## 未完待续~~~~
