@@ -42,7 +42,7 @@
 <script>
     <!--banner 图-->
     var imagelength = "<%- theme.banner.imglength %>";
-    $('.bg-cover').css('background-image', 'url(<%- theme.jsDelivr.url %><%- url_for('/medias/banner/1/'+ Math.floor(Math.random()*( theme.banner.imglength + 1)) +'.jpg') %>)');
+    $('.bg-cover').css('background-image', 'url(<%- theme.jsDelivr.url %><%- url_for('/medias/banner/'+ Math.floor(Math.random()*( theme.banner.imglength + 1)) +'.jpg') %>)');
     //var bannerUrl ="<%- theme.banner.url %>";
     // $('.bg-cover').css('background-image', 'url(' + bannerUrl +')');
 </script>

@@ -13,8 +13,8 @@ timezone: ''
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://haoweige.gitee.io/blog
-#url: https://xianshengnihao.github.io/
+#url: https://haoweige.gitee.io/blog
+url: https://xianshengnihao.github.io/blog
 permalink: posts/:abbrlink.htm
 abbrlink:
   alg: crc32   #算法： crc16(default) and crc32

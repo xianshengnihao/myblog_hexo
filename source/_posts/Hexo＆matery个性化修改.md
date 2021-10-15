@@ -173,5 +173,5 @@ tags:
 #### 删除首页轮播图
 1. 打开文件`themes/hexo-theme-matery/layout/_partial/index-cover.ejs` 搜索`carousel-item amber white-text carousel-post bg-cover`，然后将dev内的 style删掉即可
 2. 打开文件`themes/hexo-theme-matery/source/libs/materialize/materialize.min.css`，搜索.amber，删除掉.amber选择器中的背景色
-#### 
+#### 修改
 ## 未完待续~~~~

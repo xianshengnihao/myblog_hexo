@@ -22,7 +22,8 @@ let reprintPolicy = page.reprintPolicy || theme.reprint.default || 'cc_by';
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="<%- config.url %><%- url_for(page.path) %>"><%- config.url %><%- url_for(page.path) %></a>
+
+                    <a href="<%- config.url %>/<%- page.path %>"><%- config.url %>/<%- page.path %></a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -57,7 +58,7 @@ let reprintPolicy = page.reprintPolicy || theme.reprint.default || 'cc_by';
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="<%- config.url %><%- url_for(page.path) %>"><%- config.url %><%- url_for(page.path) %></a>
+                     <a href="<%- config.url %>/<%- page.path %>"><%- config.url %>/<%- page.path %></a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -92,7 +93,7 @@ let reprintPolicy = page.reprintPolicy || theme.reprint.default || 'cc_by';
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="<%- config.url %><%- url_for(page.path) %>"><%- config.url %><%- url_for(page.path) %></a>
+                     <a href="<%- config.url %>/<%- page.path %>"><%- config.url %>/<%- page.path %></a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -127,7 +128,7 @@ let reprintPolicy = page.reprintPolicy || theme.reprint.default || 'cc_by';
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="<%- config.url %><%- url_for(page.path) %>"><%- config.url %><%- url_for(page.path) %></a>
+                     <a href="<%- config.url %>/<%- page.path %>"><%- config.url %>/<%- page.path %></a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -162,7 +163,7 @@ let reprintPolicy = page.reprintPolicy || theme.reprint.default || 'cc_by';
                     </i>
                     </span>
                 <span class="reprint-info">
-                    <a href="<%- config.url %><%- url_for(page.path) %>"><%- config.url %><%- url_for(page.path) %></a>
+                     <a href="<%- config.url %>/<%- page.path %>"><%- config.url %>/<%- page.path %></a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -197,7 +198,7 @@ let reprintPolicy = page.reprintPolicy || theme.reprint.default || 'cc_by';
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="<%- config.url %><%- url_for(page.path) %>"><%- config.url %><%- url_for(page.path) %></a>
+                     <a href="<%- config.url %>/<%- page.path %>"><%- config.url %>/<%- page.path %></a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -246,6 +247,7 @@ let reprintPolicy = page.reprintPolicy || theme.reprint.default || 'cc_by';
     </div>
 
     <script async defer>
+
       document.addEventListener("copy", function (e) {
         let toastHTML = '<span><%= __('pleaseFollowReprintPolicy') %></span><button class="btn-flat toast-action" onclick="navToReprintStatement()" style="font-size: smaller"><%= __('checkPolicy') %></a>';
         M.toast({html: toastHTML})
